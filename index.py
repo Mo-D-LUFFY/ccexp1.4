@@ -1,26 +1,27 @@
 print("Ayush Raj CC Lab Mst")
-name=input(print("Enter your Name"))
-  
-email=input(print("Enter your Email Id"))
-phone=input(print("Enter your Phone Number"))
-cgpa=input(print("Enter your current cgpa"))
+name = input("Enter your Name: ")
+email = input("Enter your Email Id: ")
+phone = input("Enter your Phone Number: ")
+cgpa = input("Enter your current cgpa: ")
+
 print("Enter your 3 Hobbies")
-lst =[]
+hobbies = []
 for i in range(3):
-  hobby=input()
-  lst.append(hobby)
+    hobby = input()
+    hobbies.append(hobby)
+
 print("Enter 3 Project Names")
-pro = []
+projects = []
 for i in range(3):
-  proj=input()
-  pro.append(proj)
-company=input(print("Enter company to apply"))
+    project = input()
+    projects.append(project)
+
+company = input("Enter company to apply: ")
+
 print("...............RESUME................")
-print(name)
-print("I "+ name+ " want to join your comapny "+ company+ " for SDE position")
-print("My Conatact info "+ phone+ " , "+email)
-print("Current CGPA : " +cgpa )
-print("My Hobbies: "+lst)
-print("My projects: "+pro)
-
-
+print("Name:", name)
+print("I", name, "want to join your company", company, "for SDE position")
+print("My Contact info:", phone, ",", email)
+print("Current CGPA:", cgpa)
+print("My Hobbies:", hobbies)
+print("My Projects:", projects)
